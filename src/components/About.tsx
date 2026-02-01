@@ -12,14 +12,16 @@ const About = () => {
 
 						<div className='space-y-6 text-slate-600 leading-relaxed'>
 							<p>
-								I started as a software engineer, fell in love
-								with AI. Now I build end-to-end AI systems - from data and models to products people can
+								I started as a <a className="text-slate-900 hover:text-slate-700 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://esther-old.vercel.app/">software engineer</a>, fell in
+								love with AI. Now I build end-to-end AI systems
+								- from data and models to products people can
 								actually use.
 							</p>
 
 							<p>
-								Focused on AI Product Engineering, computer vision, neural networks, and
-								making AI more human-centered.
+								Focused on AI Product Engineering, computer
+								vision, neural networks, and making AI more
+								human-centered.
 							</p>
 						</div>
 					</div>

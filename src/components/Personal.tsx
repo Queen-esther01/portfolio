@@ -8,10 +8,10 @@ const Personal = () => {
 	];
 
 	const currently = [
-		{ label: 'Reading', value: 'Want by Gillian Anderson' },
-		{ label: 'Watching', value: 'Rewatching Spartacus' },
+		{ label: 'Reading', value: 'The seven husbands of Evelyn Hugo' },
+		{ label: 'Watching', value: 'Dark Moon Anime' },
 		{ label: 'Listening', value: 'Long long time - Linda Ronstadt' },
-		{ label: 'Learning', value: 'Deeper understanding of Evaluation Metrics' },
+		{ label: 'Learning', value: 'Evaluation Metrics / NLP Preprocessing' },
 	];
 
 	const funFacts = [

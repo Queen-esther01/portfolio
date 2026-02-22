@@ -1,15 +1,24 @@
 import { ExternalLink, Github } from 'lucide-react';
+import aslDemo from '../assets/ASL_Demo.mov';
 
 const Projects = () => {
 	const projects = [
 		{
 			title: "Speech Recognition System",
 			description:
-				"A speaker-dependent speech recognizer model trained to recognize 10 names ",
+				"A speaker-dependent speech recognizer model trained to recognize 10 names",
 			image: "https://images.pexels.com/photos/352505/pexels-photo-352505.jpeg",
 			tags: ["Librosa", "Keras"],
 			github: "https://github.com/Queen-esther01/audio-name-recognition",
 			demo: "https://audio-name-recognition.streamlit.app/",
+		},
+		{
+			title: "Real-Time ASL Recognition",
+			description:
+				"Hand pose recognition for ASL letters A–J using MediaPipe landmarks and an SVM classifier",
+			video: aslDemo,
+			tags: ["MediaPipe", "SVM", "Streamlit", "OpenCV"],
+			github: "https://github.com/Queen-esther01/ASL-Realtime",
 		},
 		// {
 		// 	title: 'Document Intelligence',
@@ -49,11 +58,22 @@ const Projects = () => {
 								key={project.title}
 								className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
 							>
-								<img
-									src={project.image}
-									alt={project.title}
-									className="w-full h-48 object-cover"
-								/>
+								{project.video ? (
+									<video
+										src={project.video}
+										className="w-full h-48 object-cover"
+										autoPlay
+										loop
+										muted
+										playsInline
+									/>
+								) : (
+									<img
+										src={project.image}
+										alt={project.title}
+										className="w-full h-48 object-cover"
+									/>
+								)}
 						
 								<div className="p-6">
 									<h3 className="text-lg font-medium text-slate-900 mb-2">

@@ -1,5 +1,6 @@
 import { ExternalLink, Github } from 'lucide-react';
 import aslDemo from '../assets/ASL_Demo.mov';
+import supplyChainImage from '../assets/SupplyChainAutomation.png';
 
 const Projects = () => {
 	const projects = [
@@ -19,6 +20,23 @@ const Projects = () => {
 			video: aslDemo,
 			tags: ["MediaPipe", "SVM", "Streamlit", "OpenCV"],
 			github: "https://github.com/Queen-esther01/ASL-Realtime",
+		},
+		{
+			title: "PDF Q&A with RAG & LangChain",
+			description:
+				"RAG-powered app to upload a PDF and ask natural-language questions. Uses GPT-4o, ChromaDB, and Streamlit.",
+			image: "https://images.pexels.com/photos/267586/pexels-photo-267586.jpeg?auto=compress&cs=tinysrgb&w=600",
+			tags: ["LangChain", "OpenAI", "ChromaDB", "Streamlit", "RAG"],
+			github: "https://github.com/Queen-esther01/RAG-Langchain",
+			demo: "https://rag-lang-chain.streamlit.app/",
+		},
+		{
+			title: "n8n Automation Workflows",
+			description:
+				"Workflows using OpenAI to triage GitHub issues, automate support emails via Gmail and Telegram, and handle supply chain incident response.",
+			image: supplyChainImage,
+			tags: ["n8n", "OpenAI", "Airtable", "Automation"],
+			github: "https://github.com/Queen-esther01/n8n-automation",
 		},
 		// {
 		// 	title: 'Document Intelligence',

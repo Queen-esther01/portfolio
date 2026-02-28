@@ -60,7 +60,7 @@ const Projects = () => {
 		// 	github: 'https://github.com',
 		// 	demo: 'https://demo.com'
 		// }
-	];
+	]
 
 	return (
 		<section id="projects" className="py-20 bg-slate-50">

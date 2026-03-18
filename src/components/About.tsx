@@ -19,8 +19,8 @@ const About = () => {
 							</p>
 
 							<p>
-								Focused on AI Product Engineering, computer
-								vision, neural networks, and making AI more
+								Focused on AI Product Engineering, LLMs, computer
+								vision, and making AI more
 								human-centered.
 							</p>
 						</div>

@@ -8,7 +8,7 @@ const Personal = () => {
 	];
 
 	const currently = [
-		{ label: 'Reading', value: 'The seven husbands of Evelyn Hugo' },
+		{ label: 'Reading', value: 'Send N*des - Saba Sams' },
 		{ label: 'Watching', value: 'Dark Moon Anime' },
 		{ label: 'Listening', value: 'Constellations - Jade LeMac' },
 		{ label: 'Learning', value: 'NLP / Transformers / Automation' },
@@ -18,7 +18,7 @@ const Personal = () => {
 		"I debug in my head while I'm having a bath",
 		"Firm believer that music fixes everything",
 		'Anime, yes - Water breathing 11th form: Dead Calm ✨',
-		'I collect way too many browser tabs',
+		'I love puzzles, dot to dot & coloring',
 	];
 
 	return (

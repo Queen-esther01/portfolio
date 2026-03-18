@@ -22,13 +22,12 @@ const Projects = () => {
 			github: "https://github.com/Queen-esther01/ASL-Realtime",
 		},
 		{
-			title: "PDF Q&A with RAG & LangChain",
+			title: "RAG System for Video Transcripts",
 			description:
-				"RAG-powered app to upload a PDF and ask natural-language questions. Uses GPT-4o, ChromaDB, and Streamlit.",
-			image: "https://images.pexels.com/photos/267586/pexels-photo-267586.jpeg?auto=compress&cs=tinysrgb&w=600",
-			tags: ["LangChain", "OpenAI", "ChromaDB", "Streamlit", "RAG"],
-			github: "https://github.com/Queen-esther01/RAG-Langchain",
-			demo: "https://rag-lang-chain.streamlit.app/",
+				"Built a retrieval-augmented generation (RAG) system for querying video transcripts using hybrid search (dense + sparse embeddings), reranking, and semantic caching.",
+			image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80",
+			tags: ["Python", "Streamlit", "ChromaDB", "OpenAI", "RAG"],
+			github: "https://github.com/Queen-esther01/Transcript-RAG-Workflow",
 		},
 		{
 			title: "n8n Automation Workflows",
@@ -60,7 +59,7 @@ const Projects = () => {
 		// 	github: 'https://github.com',
 		// 	demo: 'https://demo.com'
 		// }
-	]
+	];
 
 	return (
 		<section id="projects" className="py-20 bg-slate-50">

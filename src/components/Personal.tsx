@@ -8,9 +8,9 @@ const Personal = () => {
 	];
 
 	const currently = [
-		{ label: 'Reading', value: 'Send N*des - Saba Sams' },
-		{ label: 'Watching', value: 'Dark Moon Anime' },
-		{ label: 'Listening', value: 'Constellations - Jade LeMac' },
+		{ label: 'Reading', value: 'Onyx Storm - Rebecca Yarros' },
+		{ label: 'Watching', value: 'The Testaments - Margaret Atwood' },
+		{ label: 'Listening', value: 'Daniel - Aidoneus' },
 		{ label: 'Learning', value: 'NLP / Transformers / Automation' },
 	];
 

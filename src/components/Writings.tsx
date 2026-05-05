@@ -3,6 +3,18 @@ import { ExternalLink } from 'lucide-react';
 const Writings = () => {
 	const articles = [
 		{
+			title: 'Upload Large Folders to Cloudflare R2',
+			excerpt: 'A guide to uploading large folders to Cloudflare R2',
+			date: '2026-04-05',
+			url: 'https://dev.to/catheryn/upload-large-folders-to-cloudflare-r2-456o'
+		},
+		{
+			title: 'What MCP Actually Is and Why It Exists',
+			excerpt: 'An explanation of what MCP actually is and why it exists',
+			date: '2026-03-21',
+			url: 'https://dev.to/catheryn/what-mcp-actually-is-and-why-it-exists-3e1j'
+		},
+		{
 			title: 'Motion Detection in Computer Vision',
 			excerpt: 'A comprehensive guide to motion detection using OpenCV',
 			date: '2025-01-01',

@@ -43,7 +43,7 @@ const Writings = () => {
 
 				<div className="space-y-8">
 					{
-						articles.map((article) => (
+						articles.slice(0, 4).map((article) => (
 							<article
 								key={article.title}
 								className="border-b border-slate-200 pb-8 last:border-b-0"

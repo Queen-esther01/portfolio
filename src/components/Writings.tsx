@@ -16,7 +16,7 @@ const Writings = () => {
 		},
 		{
 			title: 'Motion Detection in Computer Vision',
-			excerpt: 'A comprehensive guide to motion detection using OpenCV',
+			excerpt: 'A comprehensive guide to motion detection with OpenCV',
 			date: '2025-01-01',
 			url: 'https://dev.to/catheryn/motion-detection-in-opencv-explained-in-depth-di6'
 		},

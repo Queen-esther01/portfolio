@@ -20,8 +20,7 @@ const About = () => {
 
 							<p>
 								Focused on AI Product Engineering, LLMs, computer
-								vision, and making AI more
-								human-centered.
+								vision, and making AI work for us.
 							</p>
 						</div>
 					</div>
@@ -49,8 +48,8 @@ const About = () => {
 								<div className='space-y-1 text-slate-600'>
 									<div>Python</div>
 									<div>MLOps</div>
-									<div>Cloud</div>
-									<div>APIs</div>
+									<div>LoRA Fine-tuning</div>
+									<div>Model Deployment & Inference</div>
 									<div>AI Agents</div>
 								</div>
 							</div>

@@ -8,10 +8,10 @@ const Personal = () => {
 	];
 
 	const currently = [
-		{ label: 'Reading', value: 'Onyx Storm - Rebecca Yarros' },
-		{ label: 'Watching', value: 'The Testaments - Margaret Atwood' },
-		{ label: 'Listening', value: 'Daniel - Aidoneus' },
-		{ label: 'Learning', value: 'NLP / Transformers / Automation' },
+		{ label: 'Reading', value: 'The housekeeper & the professor - Yoko Ogawa' },
+		{ label: 'Watching', value: 'Tokyo Ghoul' },
+		{ label: 'Listening', value: 'Olalla - Blanco White' },
+		{ label: 'Learning', value: 'Transformers / LoRA Fine-tuning' },
 	];
 
 	const funFacts = [

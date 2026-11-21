@@ -9,7 +9,7 @@ const Personal = () => {
 
 	const currently = [
 		{ label: 'Reading', value: 'God of Malice (Hard Read NGL)' },
-		{ label: 'Watching', value: 'Wuthering Heights - 2026' },
+		{ label: 'Watching', value: 'Rings of power' },
 		{ label: 'Listening', value: 'Lost - Micheal Bublé' },
 		{ label: 'Learning', value: 'Voice AI - VAD, TTS, STT' },
 	];
